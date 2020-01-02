@@ -20,9 +20,9 @@ def monopoly_with_third_tier
         four_pieces_owned: 200 }, 
       names: {
         reading_railroad: {}, 
-        pennsylvania_railroad: 1, 
-        bo_railroad: 1, 
-        gamma: 1 }
+        pennsylvania_railroad: {}, 
+        bo_railroad: {}, 
+        gamma: {} }
     }
   }
 end
