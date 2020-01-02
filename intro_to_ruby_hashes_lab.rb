@@ -13,7 +13,11 @@ def monopoly_with_third_tier
     railroads: 
     {
       pieces: 4, 
-      rent_in_dollars: {one_piece_owned: 25, beta: 1, delta: 1, gamma: 1 }, 
+      rent_in_dollars: {
+        one_piece_owned: 25, 
+        two_pieces_owned: 1, 
+        three_pieces_owned: 1, 
+        four_pieces_owned: 1 }, 
       names: {alpha: 1, beta: 1, delta: 1, gamma: 1 }
     }
   }
