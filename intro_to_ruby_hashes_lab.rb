@@ -9,7 +9,7 @@ def monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
-  {railroads: {pieces: 4, rent_in_dollars: {alpha: , beta: , delta: , gamma: }}}
+  {railroads: {pieces: 4, rent_in_dollars: {alpha: 1, beta: 1, delta: 1, gamma: 1 }}}
 end
 
 def monopoly_with_fourth_tier
